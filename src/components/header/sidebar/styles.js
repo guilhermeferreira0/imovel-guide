@@ -14,4 +14,10 @@ export const Nav = styled.div`
   justify-content: space-around;
   z-index: 2;
 
+  @media(min-width: 992px) {
+    & {
+      display: none;
+    }
+  }
+
 `;
