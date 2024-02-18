@@ -24,7 +24,7 @@ export const Section = styled.section`
 
   @keyframes zoomIn {
     0% {
-      transform: scale(1);
+      transform: scale(1.5);
     }
 
     100% {

@@ -8,6 +8,7 @@ export const Section = styled.section`
   width: 100%;
 
   .content {
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -49,5 +50,12 @@ export const Section = styled.section`
     width: 100%;
     text-transform: uppercase;
     cursor: pointer;
+  }
+
+  @media(min-width: 992px){
+    span {
+      font-size: 0.8em;
+      padding: 0.3em 2rem;
+    }
   }
 `;

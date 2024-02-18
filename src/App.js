@@ -5,6 +5,7 @@ import { RuleOf3 } from './components/ruleOf3';
 import { Modal } from './components/modal';
 import { ImgDowload } from './components/imgDowload';
 import { ImgAnimation } from './components/imgAnimation';
+import { Footer } from './components/footer';
 
 import { Main } from './styles';
 import GlobalStyle from './styles/globalStyle';
@@ -21,6 +22,7 @@ function App() {
         <ImgDowload />
         <ImgAnimation />
       </Main>
+      <Footer />
 
       <GlobalStyle />
     </div>

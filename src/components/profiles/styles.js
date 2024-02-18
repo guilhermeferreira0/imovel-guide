@@ -63,4 +63,23 @@ export const Blur = styled.div`
   .perfil02::before {
     top: -16;
   }
+
+  @media(min-width: 992px){
+    img {
+      width: 80px;
+      height: 105px;
+    }
+
+    &::before {
+      top: 0px;
+      width: 80px;
+      height: 105px;
+    }
+
+    &::after {
+      top: 0px;
+      width: 80px;
+      height: 105px;
+    }
+  }
 `;
