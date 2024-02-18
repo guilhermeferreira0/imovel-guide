@@ -27,6 +27,7 @@ export const Message = () => {
           className="inputMessage"
           placeholder="Digite o assunto"
         />
+
         <button type="submit">Enviar Mensagem</button>
       </Form>
     </Section>

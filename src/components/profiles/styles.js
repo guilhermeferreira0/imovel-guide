@@ -3,10 +3,11 @@ import styled from 'styled-components';
 export const Section = styled.section`
   display: flex;
   flex-direction: row;
+  width: 100%;
 `;
 
 export const SectionProfile = styled.section`
-  width: 90%;
+  width: 100%;
   border: 1px solid black;
   padding: 1em;
   border-radius: 5px;

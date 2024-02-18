@@ -7,7 +7,7 @@ export const Section = styled.section`
   width: 100%;
 `;
 
-export const Form = styled.form`
+export const Div = styled.div`
   width: 100%;
   border: 1px solid black;
   padding: 1em;
@@ -17,25 +17,29 @@ export const Form = styled.form`
   gap: 15px;
   margin-left: 15px;
 
-  h2 {
-    color: ${colors.blue};
+  .inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .inputs div {
+    width: 100%;
   }
 
   input {
+    padding: 0.4rem;
     border: 2px solid ${colors.gray};
     border-radius: 5px;
+    width: 40%;
+    margin-bottom: 20px;
   }
 
-  .inputData {
-    padding: 5px;
-  }
-
-  .inputMessage {
-    width: 100%;
-    margin: auto;
-    text-align: left;
-    padding: 5px;
-    height: 200px;
+  span {
+    display: inline-block;
+    width: 10%;
+    margin: 0 5%;
+    border: 1px solid black;
   }
 
   button {
