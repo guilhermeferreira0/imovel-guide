@@ -19,5 +19,6 @@ export default createGlobalStyle`
       box-sizing: border-box;
       outline: none;
       font-family: 'Roboto';
+      font-weight: 600;
   }
 `;
