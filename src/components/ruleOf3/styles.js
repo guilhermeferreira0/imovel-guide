@@ -35,6 +35,10 @@ export const Div = styled.div`
     margin-bottom: 20px;
   }
 
+  .inputRes {
+    border: 2px solid ${colors.orange};
+  }
+
   span {
     display: inline-block;
     width: 10%;
@@ -49,5 +53,6 @@ export const Div = styled.div`
     color: #fff;
     font-size: 0.9rem;
     width: 40%;
+    cursor: pointer;
   }
 `;

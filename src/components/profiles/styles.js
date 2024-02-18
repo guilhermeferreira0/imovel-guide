@@ -21,6 +21,11 @@ export const SectionProfile = styled.section`
     gap: 15px;
     align-items: center;
   }
+
+  p {
+    cursor: pointer;
+    text-decoration: underline;
+  }
 `;
 
 export const Blur = styled.div`

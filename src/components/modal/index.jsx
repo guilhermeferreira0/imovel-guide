@@ -38,5 +38,5 @@ export const ImgModal = ({ isOpen, setOpenModal }) => {
 
 ImgModal.propTypes = {
   isOpen: P.bool,
-  setOpenModal: P.bool,
+  setOpenModal: P.func,
 };

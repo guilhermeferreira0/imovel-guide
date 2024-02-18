@@ -3,7 +3,7 @@ import { Profiles } from './components/profiles';
 import { Message } from './components/message';
 import { RuleOf3 } from './components/ruleOf3';
 import { Modal } from './components/modal';
-import { ImgDowload } from './components/imgDowload';
+import { ImgDownload } from './components/imgDowload';
 import { ImgAnimation } from './components/imgAnimation';
 import { Footer } from './components/footer';
 
@@ -19,7 +19,7 @@ function App() {
         <Message />
         <RuleOf3 />
         <Modal />
-        <ImgDowload />
+        <ImgDownload />
         <ImgAnimation />
       </Main>
       <Footer />

@@ -1,7 +1,11 @@
-import { HeaderStyle } from './styles';
+import { useState } from 'react';
 import ImovelGuideLogotipo from '../../img/ImovelGuideLogotipo.jpg';
+import { HeaderStyle, MenuBar } from './styles';
+import { Sidebar } from './sidebar';
 
 export const Header = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <HeaderStyle>
       <img src={ImovelGuideLogotipo} alt="Logotipo" />
@@ -40,11 +44,13 @@ export const Header = () => {
         <a href="#">Cadastre-se</a>
       </button>
 
-      <div className="menu">
+      <MenuBar active={menuOpen} onClick={() => setMenuOpen((prev) => !prev)}>
         <div className="line1"></div>
         <div className="line2"></div>
         <div className="line3"></div>
-      </div>
+      </MenuBar>
+
+      <Sidebar active={menuOpen} />
     </HeaderStyle>
   );
 };

@@ -48,7 +48,7 @@ export const DivModal = styled.div`
   transform: translate(-50%, -50%);
   padding: 10%;
   background-color: rgba(0,0,0, 0.630);
-  z-index: 1;
+  z-index: 2;
   display: flex;
   align-items: center;
   justify-content: center;
