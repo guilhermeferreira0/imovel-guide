@@ -1,9 +1,10 @@
 import { HeaderStyle } from './styles';
+import ImovelGuideLogotipo from '../../img/ImovelGuideLogotipo.jpg';
 
 export const Header = () => {
   return (
     <HeaderStyle>
-      <img src="#" alt="Logotipo" />
+      <img src={ImovelGuideLogotipo} alt="Logotipo" />
       <nav className="links">
         <ul>
           <li>
@@ -35,8 +36,15 @@ export const Header = () => {
           </li>
         </ul>
       </nav>
+      <button>
+        <a href="#">Cadastre-se</a>
+      </button>
 
-      <button>Cadastra-se</button>
+      <div className="menu">
+        <div className="line1"></div>
+        <div className="line2"></div>
+        <div className="line3"></div>
+      </div>
     </HeaderStyle>
   );
 };
