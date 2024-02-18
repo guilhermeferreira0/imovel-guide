@@ -1,9 +1,18 @@
-import './App.css';
+import { Header } from './components/header';
+import { Profiles } from './components/profiles';
+
+import { Main } from './styles';
+import GlobalStyle from './styles/globalStyle';
 
 function App() {
   return (
     <div className="App">
-      <h1>Ola</h1>
+      <Header />
+      <Main>
+        <Profiles />
+      </Main>
+
+      <GlobalStyle />
     </div>
   );
 }
